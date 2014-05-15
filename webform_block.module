@@ -6,6 +6,7 @@
 function webform_block_block_info() {
   $blocks['current'] = array(
     'info' => t('Current webform block'),
+    'cache' => DRUPAL_NO_CACHE,
   );
   return $blocks;
 }
